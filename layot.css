@@ -1,0 +1,107 @@
+.d-grid {
+    display: grid;
+}
+
+/* 0 */
+.header-sidebar-main-footer {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+            "header header header"
+            "sidebar . main"
+            "footer footer footer"
+    ;
+}
+.header-sidebar-main-footer div:nth-child(1) {
+    grid-area: header;
+}
+.header-sidebar-main-footer div:nth-child(2) {
+    grid-area: sidebar;
+}
+.header-sidebar-main-footer div:nth-child(3) {
+    grid-area: main;
+}
+.header-sidebar-main-footer div:nth-child(4) {
+    grid-area: footer;
+}
+
+/* 1 */
+.logo-block-menu-header-content-footer{
+    grid-template-columns: repeat(3,4fr);
+    grid-template-areas:
+            "header header header"
+            "logo-block . menu"
+            "content content content"
+            "footer footer footer"
+    ;
+}
+.logo-block-menu-header-content-footer div:nth-child(1) {
+    grid-area: header;
+}
+.logo-block-menu-header-content-footer div:nth-child(2) {
+    grid-area: logo-block;
+}
+.logo-block-menu-header-content-footer div:nth-child(3) {
+    grid-area: menu;
+}
+.logo-block-menu-header-content-footer div:nth-child(4) {
+    grid-area: content;
+}
+.logo-block-menu-header-content-footer div:nth-child(5) {
+    grid-area: footer;
+}
+
+/* 2 */
+.logo-menu-swap{
+    grid-template-columns: repeat(3,4fr);
+    grid-template-areas:
+            "header header header"
+            "logo-block . menu"
+            "content content content"
+            "footer footer footer"
+    ;
+}
+.logo-menu-swap div:nth-child(1) {
+    grid-area: header;
+}
+.logo-menu-swap div:nth-child(2) {
+    grid-area: menu;
+}
+.logo-menu-swap div:nth-child(3) {
+    grid-area: logo-block;
+}
+.logo-menu-swap div:nth-child(4) {
+    grid-area: content;
+}
+.logo-menu-swap div:nth-child(5) {
+    grid-area: footer;
+}
+
+/* 3 */
+.use-justify-item{
+    grid-template-columns: repeat(3,4fr);
+    grid-template-areas:
+            "header header header"
+            "logo-block . menu"
+            "content content content"
+            "footer footer footer"
+    ;
+}
+.use-justify-item div:nth-child(1) {
+    grid-area: header;
+}
+.use-justify-item div:nth-child(2) {
+    grid-area: menu;
+}
+.use-justify-item div:nth-child(3) {
+    grid-area: logo-block;
+}
+.use-justify-item div:nth-child(4) {
+    grid-area: content;
+}
+.use-justify-item div:nth-child(5) {
+    grid-area: footer;
+}
+
+.use-justify-item{
+    justify-items: center;
+}

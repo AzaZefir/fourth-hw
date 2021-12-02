@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fourth hw</title>
+    <link rel="stylesheet" href="style/global-style.css">
+    <link rel="stylesheet" href="style/layot.css">
+</head>
+<body>
+    <h2>Создать блок с 3 колонками и grid-template-areas, в которой задать такие области как: header,
+        main, sidebar, footer.
+        </h2>
+    <div class="container d-grid header-sidebar-main-footer">
+        <div class="block lime">header</div>
+        <div class="block orange">sidebar</div>
+        <div class="block yellow">main</div>
+        <div class="block darkblue">footer</div>
+    </div>
+
+    <h2>Создать блок в котором будет grid-template-areas с такими областями: logo-block, menu , header,
+        content, footer</h2>
+
+    <div class="container d-grid logo-block-menu-header-content-footer">
+        <div class="block lime">header</div>
+        <div class="block orange">logo</div>
+        <div class="block yellow">menu</div>
+        <div class="block darkblue">content</div>
+        <div class="block green">footer</div>
+    </div>
+
+<h2>В созданном блоке поменяйте местами logo-block и menu.</h2>
+
+    <div class="container d-grid logo-menu-swap">
+        <div class="block lime">header</div>
+        <div class="block orange">logo</div>
+        <div class="block yellow">menu</div>
+        <div class="block darkblue">content</div>
+        <div class="block orange">footer</div>
+    </div>
+
+    <h2>Добавить к созданным блокам правило justify-items .</h2>
+
+    <div class="container d-grid use-justify-item">
+        <div class="block lime">header</div>
+        <div class="block orange">logo</div>
+        <div class="block yellow">menu</div>
+        <div class="block lime">content</div>
+        <div class="block darkblue">footer</div>
+    </div>
+</body>
+</html>
